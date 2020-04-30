@@ -2,7 +2,7 @@
 
 REST API project to monitor a fire alarm system. 
 
-## Installation 
+### Installation 
 
 Clone this GIT repository and run the following command to install the required node modules. 
 
