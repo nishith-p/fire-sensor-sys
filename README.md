@@ -16,6 +16,8 @@ Launch the React web application through this code:
 
 ### `npm start`
 
+Please note that you need to have MongoDB running in the background. 
+
 ## Contributions 
 
 - Senevirathne B. W. H. K 
