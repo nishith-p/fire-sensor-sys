@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Sensor = require("../models/sensor");
+const checkAuth = require("../middleware/checkAuth");
 
 //Get a list from DB
 router.get("/sensors", function (req, res, next) {
@@ -10,7 +11,7 @@ router.get("/sensors", function (req, res, next) {
 });
 
 //Add a new item to DB
-router.post("/sensors", function (req, res, next) {
+router.post("/sensors", checkAuth, function (req, res, next) {
   Sensor.create(req.body)
     .then(function (sensor) {
       res.send(sensor);
@@ -19,7 +20,7 @@ router.post("/sensors", function (req, res, next) {
 });
 
 //Update an item in DB
-router.put("/sensors/:id", function (req, res, next) {
+router.put("/sensors/:id", checkAuth, function (req, res, next) {
   Sensor.findByIdAndUpdate({ _id: req.params.id }, req.body).then(function () {
     Sensor.findOne({ _id: req.params.id }).then(function (sensor) {
       res.send(sensor);
@@ -28,7 +29,7 @@ router.put("/sensors/:id", function (req, res, next) {
 });
 
 //Delete an item from DB
-router.delete("/sensors/:id", function (req, res, next) {
+router.delete("/sensors/:id", checkAuth, function (req, res, next) {
   Sensor.findByIdAndRemove({ _id: req.params.id }).then(function (sensor) {
     res.send(sensor);
   });
