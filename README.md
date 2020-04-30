@@ -6,15 +6,15 @@ REST API project to monitor a fire alarm system.
 
 Clone this GIT repository and run the following command to install the required node modules. 
 
-### `npm install`
+`npm install`
 
 Run the following code to start the API server: 
 
-### `node index`
+`node index`
 
 Launch the React web application through this code: 
 
-### `npm start`
+`npm start`
 
 Please note that you need to have MongoDB running in the background. 
 
