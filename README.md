@@ -1,4 +1,4 @@
-## Sensor Monitoring System
+## Sensor Monitoring System (REST API & Web Client)
 
 REST API project to monitor a fire alarm system. 
 
