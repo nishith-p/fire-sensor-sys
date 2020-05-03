@@ -65,10 +65,7 @@ router.post("/login", (req, res, next) => {
             {
               email: user[0].email,
             },
-            "secret",
-            {
-              expiresIn: "1h",
-            }
+            "secret"
           );
           return res.status(200).json({
             message: "Auth successful.",
