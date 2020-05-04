@@ -10,7 +10,8 @@ class SensorTableRow extends Component {
         <td>{this.props.oneSensor.s_level}</td>
         <td>{this.props.oneSensor.c_level}</td>
         <td>
-          {this.props.oneSensor.status ? (
+          {this.props.oneSensor.s_level > 5 ||
+          this.props.oneSensor.c_level > 5 ? (
             <i className="fa fa-circle" style={{ color: "red" }} />
           ) : (
             <i className="fa fa-circle" style={{ color: "green" }} />
