@@ -7,17 +7,23 @@ class SensorTable extends Component {
     this.state = { sensors: [] };
   }
 
-  componentDidMount() {
-    fetch("http://localhost:4000/api/sensors")
-      .then(function (data) {
-        return data.json();
-      })
-      .then((json) => {
-        this.setState({
-          sensors: json,
-        });
-      });
-  }
+  componentDidMount = async () => {
+    try {
+      setInterval(async () => {
+        fetch("http://localhost:4000/api/sensors/")
+          .then(function (data) {
+            return data.json();
+          })
+          .then((json) => {
+            this.setState({
+              sensors: json,
+            });
+          });
+      }, 10000);
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   tableRow() {
     console.log(this.state.sensors);
