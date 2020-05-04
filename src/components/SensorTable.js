@@ -19,7 +19,7 @@ class SensorTable extends Component {
               sensors: json,
             });
           });
-      }, 10000);
+      }, 40000);
     } catch (err) {
       console.log(err);
     }
