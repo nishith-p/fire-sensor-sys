@@ -12,7 +12,7 @@ nishith.pinnawala@gmail.com
 
 ### Demo Video Link ###
 
-https://youtu.be/j1gWKNJUams
+YouTube Demo: https://youtu.be/j1gWKNJUams
 
 ### Github ###
 
@@ -22,13 +22,11 @@ https://github.com/nishith-p/fire-sensor-sys
 
 These are also included inside the "desktop_client" folder. 
 
-Java External Libs + Fake SMTP Server
-https://drive.google.com/open?id=1Rhx0_ogXsy2dv0mrpdtzWHBSvkl_ihEQ
+Java External Libs + Fake SMTP Server: https://drive.google.com/open?id=1Rhx0_ogXsy2dv0mrpdtzWHBSvkl_ihEQ
 
-Dummy Fire Sensor
-https://drive.google.com/open?id=1wiiNwIamB_Na3rm-OP11hyBkZZdXyPi1
+Dummy Fire Sensor: https://drive.google.com/open?id=1wiiNwIamB_Na3rm-OP11hyBkZZdXyPi1
 
 ### All files ###
 
-https://drive.google.com/drive/u/1/folders/1qcWlmJRuNXrHe6DAZOZOIrjX7gPHBPEx
+Google Drive: https://drive.google.com/drive/u/1/folders/1qcWlmJRuNXrHe6DAZOZOIrjX7gPHBPEx
 
