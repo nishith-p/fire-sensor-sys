@@ -2,30 +2,23 @@
 
 Read "install_guide.txt" for installation help. 
 
-## Team Members ##
+### Team Members ###
 
-IT18140576 - Pinnawala N. M	
+- IT18140576 - Pinnawala N. M | 
 nishith.pinnawala@gmail.com
-0766796797
+- IT18129922 - Wijerathna W. A. K. T | kaveesha.thishalka@gmail.com
+- IT18136784 - Senevirathna B. W. H. K | hskaushalya1@gmail.com
+- IT18163278 - Thilakaratne B. M. S. A | avishkat1007@gmail.com
 
-IT18129922 - Wijerathna W. A. K. T	
-kaveesha.thishalka@gmail.com
-
-IT18136784 - Senevirathna B. W. H. K	
-hskaushalya1@gmail.com
-
-IT18163278 - Thilakaratne B. M. S. A	
-avishkat1007@gmail.com
-
-## Demo Video Link ## 
+### Demo Video Link ###
 
 https://youtu.be/j1gWKNJUams
 
-## Github Links ##
+### Github ###
 
 https://github.com/nishith-p/fire-sensor-sys
 
-## Other Required Files ## 
+### Other Required Files ### 
 
 These are also included inside the "desktop_client" folder. 
 
@@ -35,7 +28,7 @@ https://drive.google.com/open?id=1Rhx0_ogXsy2dv0mrpdtzWHBSvkl_ihEQ
 Dummy Fire Sensor
 https://drive.google.com/open?id=1wiiNwIamB_Na3rm-OP11hyBkZZdXyPi1
 
-## All files ##
+### All files ###
 
 https://drive.google.com/drive/u/1/folders/1qcWlmJRuNXrHe6DAZOZOIrjX7gPHBPEx
 
