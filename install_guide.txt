@@ -1,0 +1,55 @@
+### Sensor Monitoring System - Installation ###
+
+You need to have JDK 11 and Node.js installed. Apart from that you also need to have MongoDB (../database/sensorDB.zip OR Running the REST API will automatically create the Database) running in the background. 
+
+### REST API & Web Client ###
+
+1. Clone this GIT repository and run the following command to install the required node modules.
+
+npm install
+
+2. Run the following code to start the API server:
+
+nodemon index
+
+3. Launch the React web application through this code:
+
+npm start
+
+It will take 40 seconds to load data from the database. 
+
+### RMI Desktop Client ###
+
+1. After you have configured the REST API, you need to create a user account in the server.
+
+2. Open Postman and make a POST request to the following link:
+
+http://localhost:4000/users/register
+
+3. The body type should be "raw" and the content type should be "JSON". Include the following in the body.
+
+{ "email" : "<email address>", "password" : "<password>" }
+
+4. Once you successfully create the account, you will reserve a token in the response body. Copy it.
+
+5. Open this project (../desktop_client/rmi_app) on Eclipse and open "RMI_Server.java" file and find the following line.
+
+request.addHeader("Authorization", "Bearer <YOUR TOKEN HERE>");
+
+6. Replace the part with the token you copied. There will be multiple lines in the code. Do this to all and Save.
+
+7. Run "RMI_Server".
+
+8. Run "Login.java".
+
+9. Login to the account you created.
+
+### IMPORTANT ###
+
+Make sure you are running Java 11 and have all the required external files (../desktop_client/external_libs OR Check ReadMe for links) inside the project folder.
+
+Run the "FakeSMTP" (../desktop_client/fakeSMTP-2.0.jar OR Check the ReadMe for links) to start the mail server or you will get an error in the console. (Doesn't affect the main program). 
+
+Run the Dummy Fire Sensor App (../desktop_client/dummy_sensor) to change data of a sensor randomly. (Make sure the Sensor ID matches with a sensor in your Database).  
+
+ 

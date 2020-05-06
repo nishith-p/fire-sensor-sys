@@ -1,31 +1,41 @@
-## Sensor Monitoring System (REST API & Web Client)
+# Distributed Systems - Assignment 02 (REST API) #
 
-REST API project to monitor a fire alarm system. 
+Read "install_guide.txt" for installation help. 
 
-## Installation 
+## Team Members ##
 
-Clone this GIT repository and run the following command to install the required node modules. 
+IT18140576 - Pinnawala N. M	
+nishith.pinnawala@gmail.com
+0766796797
 
-`npm install`
+IT18129922 - Wijerathna W. A. K. T	
+kaveesha.thishalka@gmail.com
 
-Run the following code to start the API server: 
+IT18136784 - Senevirathna B. W. H. K	
+hskaushalya1@gmail.com
 
-`node index`
+IT18163278 - Thilakaratne B. M. S. A	
+avishkat1007@gmail.com
 
-Launch the React web application through this code: 
+## Demo Video Link ## 
 
-`npm start`
+https://youtu.be/j1gWKNJUams
 
-Please note that you need to have MongoDB running in the background. 
+## Github Links ##
 
-## Contributions 
+https://github.com/nishith-p/fire-sensor-sys
 
-- Senevirathne B. W. H. K 
-- Pinnawala N. M
-- Wijerathna W. A. K. T
-- Thilakaratne B. M. S. A 
+## Other Required Files ## 
 
-## License
+These are also included inside the "desktop_client" folder. 
 
-N/A.
+Java External Libs + Fake SMTP Server
+https://drive.google.com/open?id=1Rhx0_ogXsy2dv0mrpdtzWHBSvkl_ihEQ
+
+Dummy Fire Sensor
+https://drive.google.com/open?id=1wiiNwIamB_Na3rm-OP11hyBkZZdXyPi1
+
+## All files ##
+
+https://drive.google.com/drive/u/1/folders/1qcWlmJRuNXrHe6DAZOZOIrjX7gPHBPEx
 

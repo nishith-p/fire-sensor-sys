@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Nishith/Downloads/json-20190722.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nishith/Desktop/12/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nishith/Desktop/12/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nishith/Desktop/12/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nishith/Desktop/12/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nishith/Desktop/act/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nishith/Desktop/javax.mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
