@@ -1,11 +1,12 @@
 # Distributed Systems - Assignment 02 (REST API) #
 
-Read "install_guide.txt" for installation help. 
+Read "install_guide.txt" for installation help. Desktop application is inside the folder "desktop_client/rmi-app". 
+
+Report: DS_ASSIGNMENT2_REPORT.docx
 
 ### Team Members ###
 
-- IT18140576 - Pinnawala N. M | 
-nishith.pinnawala@gmail.com
+- IT18140576 - Pinnawala N. M | nishith.pinnawala@gmail.com
 - IT18129922 - Wijerathna W. A. K. T | kaveesha.thishalka@gmail.com
 - IT18136784 - Senevirathna B. W. H. K | hskaushalya1@gmail.com
 - IT18163278 - Thilakaratne B. M. S. A | avishkat1007@gmail.com
